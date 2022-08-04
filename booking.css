@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+/* CSS Variables */
+:root{
+    --navbar-height:59px;
+}
+ /* Navigation Bar  */
+ #navbar
+ {
+     display: flex;
+     align-items: center;
+ }
+ /* Navbar: Logo and Image */
+
+ #logo{
+        margin: 10px 34px;
+ }
+ #logo img{
+        height: 56px;
+        margin: 3px 5px;
+ }
+/*Navbar:  List Styling */
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai 2',cursive ;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+
+#navbar ul li{
+    color:white;
+    list-style: none;
+    font-size: 1.3rem;
+
+}
+#navbar ul li a{
+   color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
+
+#navbar ul li a:hover{
+    color:black;
+    background-color: white;
+     
+ }
+
+ form {
+    
+    font-size: large;
+    
+  }
+
+  #booking {
+    margin:4px 4px;
+    padding:10px 15px;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=text], input[type=tel],input[type=email] {
+    
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: #f1f1f1;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    width: 90%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
